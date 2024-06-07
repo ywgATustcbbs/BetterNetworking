@@ -108,17 +108,17 @@
             this.tableLayoutPanel1.Controls.Add(this.labelKCPPort, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.labelStun, 1, 7);
             this.tableLayoutPanel1.Controls.Add(this.ipAddressControl1, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.buttonTestIP, 5, 1);
+            this.tableLayoutPanel1.Controls.Add(this.buttonTestIP, 6, 1);
             this.tableLayoutPanel1.Controls.Add(this.nudPZPort, 3, 3);
             this.tableLayoutPanel1.Controls.Add(this.nudKCPPort, 3, 5);
             this.tableLayoutPanel1.Controls.Add(this.comboStun, 3, 7);
-            this.tableLayoutPanel1.Controls.Add(this.labelInfo, 7, 1);
+            this.tableLayoutPanel1.Controls.Add(this.labelInfo, 8, 1);
             this.tableLayoutPanel1.Controls.Add(this.buttonGenerate, 1, 13);
             this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 1, 15);
-            this.tableLayoutPanel1.Controls.Add(this.buttonCopy, 5, 15);
+            this.tableLayoutPanel1.Controls.Add(this.buttonCopy, 4, 15);
             this.tableLayoutPanel1.Controls.Add(this.labelBandwidth, 1, 9);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 3, 9);
-            this.tableLayoutPanel1.Controls.Add(this.labelConfInfo, 5, 16);
+            this.tableLayoutPanel1.Controls.Add(this.labelConfInfo, 4, 16);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             // 
             // labelIP
@@ -147,6 +147,7 @@
             this.ipAddressControl1.AutoHeight = true;
             this.ipAddressControl1.BackColor = System.Drawing.SystemColors.Window;
             this.ipAddressControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.tableLayoutPanel1.SetColumnSpan(this.ipAddressControl1, 2);
             this.ipAddressControl1.Cursor = System.Windows.Forms.Cursors.IBeam;
             resources.ApplyResources(this.ipAddressControl1, "ipAddressControl1");
             this.ipAddressControl1.Name = "ipAddressControl1";
@@ -162,7 +163,7 @@
             // 
             // nudPZPort
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.nudPZPort, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.nudPZPort, 4);
             resources.ApplyResources(this.nudPZPort, "nudPZPort");
             this.nudPZPort.Maximum = new decimal(new int[] {
             65535,
@@ -184,7 +185,7 @@
             // 
             // nudKCPPort
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.nudKCPPort, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.nudKCPPort, 4);
             resources.ApplyResources(this.nudKCPPort, "nudKCPPort");
             this.nudKCPPort.Maximum = new decimal(new int[] {
             65535,
@@ -206,7 +207,7 @@
             // 
             // comboStun
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.comboStun, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.comboStun, 4);
             this.comboStun.DisplayMember = "0";
             resources.ApplyResources(this.comboStun, "comboStun");
             this.comboStun.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -240,7 +241,7 @@
             // 
             // buttonGenerate
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.buttonGenerate, 7);
+            this.tableLayoutPanel1.SetColumnSpan(this.buttonGenerate, 8);
             resources.ApplyResources(this.buttonGenerate, "buttonGenerate");
             this.buttonGenerate.Name = "buttonGenerate";
             this.buttonGenerate.UseVisualStyleBackColor = true;
@@ -257,7 +258,7 @@
             // 
             // buttonCopy
             // 
-            this.tableLayoutPanel1.SetColumnSpan(this.buttonCopy, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.buttonCopy, 5);
             resources.ApplyResources(this.buttonCopy, "buttonCopy");
             this.buttonCopy.Name = "buttonCopy";
             this.buttonCopy.UseVisualStyleBackColor = true;
@@ -272,7 +273,7 @@
             // tableLayoutPanel3
             // 
             resources.ApplyResources(this.tableLayoutPanel3, "tableLayoutPanel3");
-            this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel3, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.tableLayoutPanel3, 4);
             this.tableLayoutPanel3.Controls.Add(this.label2, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.label3, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.comboBandwidthInUnit, 2, 0);
@@ -373,7 +374,7 @@
             // labelConfInfo
             // 
             resources.ApplyResources(this.labelConfInfo, "labelConfInfo");
-            this.tableLayoutPanel1.SetColumnSpan(this.labelConfInfo, 3);
+            this.tableLayoutPanel1.SetColumnSpan(this.labelConfInfo, 5);
             this.labelConfInfo.Name = "labelConfInfo";
             // 
             // FormServer

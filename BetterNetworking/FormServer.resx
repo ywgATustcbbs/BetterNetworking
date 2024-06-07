@@ -117,57 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
-    <value>tableLayoutPanel2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
-    <value>panelTop</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="buttonClose" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,5,Absolute,40,Percent,50,Absolute,200,Percent,50,Absolute,40,Absolute,5" /&gt;&lt;Rows Styles="Absolute,5,Percent,100,Absolute,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="panelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="panelTop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="panelTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>10, 10, 10, 10</value>
-  </data>
-  <data name="panelTop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 50</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="panelTop.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelTop.Name" xml:space="preserve">
-    <value>panelTop</value>
-  </data>
-  <data name="&gt;&gt;panelTop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelTop.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelTop.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="button1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
@@ -183,6 +140,7 @@
   <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 8</value>
   </data>
@@ -273,8 +231,35 @@
   <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
     <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="button1" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="buttonClose" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,5,Absolute,40,Percent,50,Absolute,200,Percent,50,Absolute,40,Absolute,5" /&gt;&lt;Rows Styles="Absolute,5,Percent,100,Absolute,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
+  <data name="panelTop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>10, 10, 10, 10</value>
+  </data>
+  <data name="panelTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 50</value>
+  </data>
+  <data name="panelTop.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Name" xml:space="preserve">
+    <value>panelTop</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelTop.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelTop.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="labelIP.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -286,7 +271,7 @@
     <value>8, 5</value>
   </data>
   <data name="labelIP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 30</value>
+    <value>177, 30</value>
   </data>
   <data name="labelIP.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -316,7 +301,7 @@
     <value>8, 40</value>
   </data>
   <data name="labelPZPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 30</value>
+    <value>177, 30</value>
   </data>
   <data name="labelPZPort.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -346,7 +331,7 @@
     <value>8, 75</value>
   </data>
   <data name="labelKCPPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 30</value>
+    <value>177, 30</value>
   </data>
   <data name="labelKCPPort.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -379,7 +364,7 @@
     <value>8, 110</value>
   </data>
   <data name="labelStun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 30</value>
+    <value>177, 30</value>
   </data>
   <data name="labelStun.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -403,13 +388,13 @@
     <value>Fill</value>
   </data>
   <data name="ipAddressControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 8</value>
+    <value>196, 8</value>
   </data>
   <data name="ipAddressControl1.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>123, 29</value>
   </data>
   <data name="ipAddressControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 29</value>
+    <value>177, 29</value>
   </data>
   <data name="ipAddressControl1.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -433,13 +418,13 @@
     <value>Fill</value>
   </data>
   <data name="buttonTestIP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>379, 5</value>
+    <value>381, 5</value>
   </data>
   <data name="buttonTestIP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
   <data name="buttonTestIP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 30</value>
+    <value>122, 30</value>
   </data>
   <data name="buttonTestIP.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -463,10 +448,10 @@
     <value>Fill</value>
   </data>
   <data name="nudPZPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 43</value>
+    <value>196, 43</value>
   </data>
   <data name="nudPZPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 29</value>
+    <value>304, 29</value>
   </data>
   <data name="nudPZPort.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -487,10 +472,10 @@
     <value>Fill</value>
   </data>
   <data name="nudKCPPort.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 78</value>
+    <value>196, 78</value>
   </data>
   <data name="nudKCPPort.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 29</value>
+    <value>304, 29</value>
   </data>
   <data name="nudKCPPort.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -559,10 +544,10 @@
     <value>stun.voipgate.com</value>
   </data>
   <data name="comboStun.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 113</value>
+    <value>196, 113</value>
   </data>
   <data name="comboStun.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 29</value>
+    <value>304, 29</value>
   </data>
   <data name="comboStun.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -589,10 +574,10 @@
     <value>微软雅黑, 9pt</value>
   </data>
   <data name="labelInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>508, 5</value>
+    <value>511, 5</value>
   </data>
   <data name="labelInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 205</value>
+    <value>279, 205</value>
   </data>
   <data name="labelInfo.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -625,7 +610,7 @@
     <value>150, 3, 150, 3</value>
   </data>
   <data name="buttonGenerate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>483, 44</value>
+    <value>488, 44</value>
   </data>
   <data name="buttonGenerate.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -652,7 +637,7 @@
     <value>8, 303</value>
   </data>
   <data name="richTextBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>363, 239</value>
+    <value>259, 239</value>
   </data>
   <data name="richTextBox1.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -679,10 +664,10 @@
     <value>NoControl</value>
   </data>
   <data name="buttonCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 303</value>
+    <value>273, 303</value>
   </data>
   <data name="buttonCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>403, 43</value>
+    <value>517, 43</value>
   </data>
   <data name="buttonCopy.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -712,7 +697,7 @@
     <value>8, 145</value>
   </data>
   <data name="labelBandwidth.Size" type="System.Drawing.Size, System.Drawing">
-    <value>176, 65</value>
+    <value>177, 65</value>
   </data>
   <data name="labelBandwidth.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -735,195 +720,6 @@
   <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label3.Name" xml:space="preserve">
-    <value>label3</value>
-  </data>
-  <data name="&gt;&gt;label3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthInUnit.Name" xml:space="preserve">
-    <value>comboBandwidthInUnit</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthInUnit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthInUnit.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthInUnit.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthOutUnit.Name" xml:space="preserve">
-    <value>comboBandwidthOutUnit</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthOutUnit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthOutUnit.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;comboBandwidthOutUnit.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthIn.Name" xml:space="preserve">
-    <value>nudBandwidthIn</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthIn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthIn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthIn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthOut.Name" xml:space="preserve">
-    <value>nudBandwidthOut</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthOut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthOut.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;nudBandwidthOut.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthIn.Name" xml:space="preserve">
-    <value>labelBandwidthIn</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthIn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthIn.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthIn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthOut.Name" xml:space="preserve">
-    <value>labelBandwidthOut</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthOut.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthOut.Parent" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;labelBandwidthOut.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>195, 148</value>
-  </data>
-  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>302, 59</value>
-  </data>
-  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
-    <value>tableLayoutPanel3</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="comboBandwidthInUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="comboBandwidthOutUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nudBandwidthIn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nudBandwidthOut" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelBandwidthIn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelBandwidthOut" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,30,Percent,20,Absolute,51" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
-  <data name="labelConfInfo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="labelConfInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="labelConfInfo.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
-  </data>
-  <data name="labelConfInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>382, 349</value>
-  </data>
-  <data name="labelConfInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>403, 196</value>
-  </data>
-  <data name="labelConfInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="labelConfInfo.Text" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;labelConfInfo.Name" xml:space="preserve">
-    <value>labelConfInfo</value>
-  </data>
-  <data name="&gt;&gt;labelConfInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;labelConfInfo.Parent" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;labelConfInfo.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>800, 550</value>
-  </data>
-  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
-    <value>tableLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelIP" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelPZPort" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelKCPPort" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelStun" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ipAddressControl1" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="buttonTestIP" Row="1" RowSpan="1" Column="5" ColumnSpan="1" /&gt;&lt;Control Name="nudPZPort" Row="3" RowSpan="1" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="nudKCPPort" Row="5" RowSpan="1" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="comboStun" Row="7" RowSpan="1" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="labelInfo" Row="1" RowSpan="11" Column="7" ColumnSpan="1" /&gt;&lt;Control Name="buttonGenerate" Row="13" RowSpan="1" Column="1" ColumnSpan="7" /&gt;&lt;Control Name="richTextBox1" Row="15" RowSpan="2" Column="1" ColumnSpan="3" /&gt;&lt;Control Name="buttonCopy" Row="15" RowSpan="1" Column="5" ColumnSpan="3" /&gt;&lt;Control Name="labelBandwidth" Row="9" RowSpan="3" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="9" RowSpan="3" Column="3" ColumnSpan="3" /&gt;&lt;Control Name="labelConfInfo" Row="16" RowSpan="1" Column="5" ColumnSpan="3" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,5,Percent,23.68421,Absolute,5,Percent,23.68421,Absolute,5,Percent,15.78947,Absolute,5,Percent,36.84211,Absolute,11" /&gt;&lt;Rows Styles="Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,20,Absolute,50,Absolute,20,Percent,20,Percent,80,Absolute,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
-  </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -931,10 +727,10 @@
     <value>Fill</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 0</value>
+    <value>254, 0</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 29</value>
+    <value>47, 29</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -961,10 +757,10 @@
     <value>Fill</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 29</value>
+    <value>254, 29</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 30</value>
+    <value>47, 30</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -994,10 +790,10 @@
     <value>G</value>
   </data>
   <data name="comboBandwidthInUnit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 3</value>
+    <value>204, 3</value>
   </data>
   <data name="comboBandwidthInUnit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 29</value>
+    <value>29, 29</value>
   </data>
   <data name="comboBandwidthInUnit.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -1024,10 +820,10 @@
     <value>G</value>
   </data>
   <data name="comboBandwidthOutUnit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 32</value>
+    <value>204, 32</value>
   </data>
   <data name="comboBandwidthOutUnit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 29</value>
+    <value>29, 29</value>
   </data>
   <data name="comboBandwidthOutUnit.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -1045,10 +841,10 @@
     <value>3</value>
   </data>
   <data name="nudBandwidthIn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 3</value>
+    <value>129, 3</value>
   </data>
   <data name="nudBandwidthIn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 29</value>
+    <value>46, 29</value>
   </data>
   <data name="nudBandwidthIn.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1066,10 +862,10 @@
     <value>4</value>
   </data>
   <data name="nudBandwidthOut.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 32</value>
+    <value>129, 32</value>
   </data>
   <data name="nudBandwidthOut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 29</value>
+    <value>46, 29</value>
   </data>
   <data name="nudBandwidthOut.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -1139,6 +935,99 @@
   </data>
   <data name="&gt;&gt;labelBandwidthOut.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>196, 148</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 59</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label2" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="1" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="comboBandwidthInUnit" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="comboBandwidthOutUnit" Row="1" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="nudBandwidthIn" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="nudBandwidthOut" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelBandwidthIn" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="labelBandwidthOut" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,30,Percent,20,Absolute,51" /&gt;&lt;Rows Styles="Percent,50,Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="labelConfInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="labelConfInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="labelConfInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="labelConfInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>273, 349</value>
+  </data>
+  <data name="labelConfInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>517, 196</value>
+  </data>
+  <data name="labelConfInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="labelConfInfo.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;labelConfInfo.Name" xml:space="preserve">
+    <value>labelConfInfo</value>
+  </data>
+  <data name="&gt;&gt;labelConfInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelConfInfo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;labelConfInfo.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 550</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="labelIP" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelPZPort" Row="3" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelKCPPort" Row="5" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="labelStun" Row="7" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ipAddressControl1" Row="1" RowSpan="1" Column="3" ColumnSpan="2" /&gt;&lt;Control Name="buttonTestIP" Row="1" RowSpan="1" Column="6" ColumnSpan="1" /&gt;&lt;Control Name="nudPZPort" Row="3" RowSpan="1" Column="3" ColumnSpan="4" /&gt;&lt;Control Name="nudKCPPort" Row="5" RowSpan="1" Column="3" ColumnSpan="4" /&gt;&lt;Control Name="comboStun" Row="7" RowSpan="1" Column="3" ColumnSpan="4" /&gt;&lt;Control Name="labelInfo" Row="1" RowSpan="11" Column="8" ColumnSpan="1" /&gt;&lt;Control Name="buttonGenerate" Row="13" RowSpan="1" Column="1" ColumnSpan="8" /&gt;&lt;Control Name="richTextBox1" Row="15" RowSpan="2" Column="1" ColumnSpan="3" /&gt;&lt;Control Name="buttonCopy" Row="15" RowSpan="1" Column="4" ColumnSpan="5" /&gt;&lt;Control Name="labelBandwidth" Row="9" RowSpan="3" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="9" RowSpan="3" Column="3" ColumnSpan="4" /&gt;&lt;Control Name="labelConfInfo" Row="16" RowSpan="1" Column="4" ColumnSpan="5" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,5,Percent,23.68521,Absolute,5,Percent,10.00042,Percent,13.68058,Absolute,5,Percent,15.79014,Absolute,5,Percent,36.84366,Absolute,5" /&gt;&lt;Rows Styles="Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,5,Absolute,30,Absolute,20,Absolute,50,Absolute,20,Percent,20,Percent,80,Absolute,5" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
