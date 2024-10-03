@@ -173,8 +173,13 @@ namespace BetterNetworking
 
         private void buttonGenerate_Click(object sender, EventArgs e)
         {
-            strServer = "mode=server\r\nkcp=fast2\r\nlisten_port=" + Settings.Default.intKCPPort.ToString() + "\r\ndestination_port=" + Settings.Default.intPZPort.ToString() + "\r\ndestination_address=127.0.0.1\r\nencryption_algorithm=none\r\nipv4_only=true\r\nblast=1\r\nfec=1:1\r\nstun_server=" + comboStun.SelectedItem.ToString() + "\r\ninbound_bandwidth=" + Settings.Default.intServerBandWidthIn.ToString() + comboBandwidthInUnit.Text + "\r\noutbound_bandwidth=" + Settings.Default.intServerBandWidthOut.ToString() + comboBandwidthOutUnit.Text;
-            strClient = "mode=client\r\nkcp=fast2\r\nlisten_port=16999\r\ndestination_port=" + Settings.Default.intKCPPort.ToString() + "\r\ndestination_address=" + Settings.Default.strIPAddress + "\r\nencryption_algorithm=none\r\nipv4_only=true\r\nblast=1\r\nfec=1:1\r\nstun_server=" + comboStun.SelectedItem.ToString();
+            strServer = "mode=server\r\nkcp=fast2\r\nlisten_port=" + Settings.Default.intKCPPort.ToString() + "\r\ndestination_port=" + Settings.Default.intPZPort.ToString() + "\r\ndestination_address=127.0.0.1\r\nencryption_algorithm=none\r\nipv4_only=true\r\nblast=1\r\nfec=1:1\r\ninbound_bandwidth=" + Settings.Default.intServerBandWidthIn.ToString() + comboBandwidthInUnit.Text + "\r\noutbound_bandwidth=" + Settings.Default.intServerBandWidthOut.ToString() + comboBandwidthOutUnit.Text;
+            strClient = "mode=client\r\nkcp=fast2\r\nlisten_port=16999\r\ndestination_port=" + Settings.Default.intKCPPort.ToString() + "\r\ndestination_address=" + Settings.Default.strIPAddress + "\r\nencryption_algorithm=none\r\nipv4_only=true\r\nblast=1\r\nfec=1:1";
+            if (comboStun.SelectedIndex != 0)
+            {
+                strServer += "\r\nstun_server=" + comboStun.SelectedItem.ToString();
+                strClient += "\r\nstun_server=" + comboStun.SelectedItem.ToString();
+            }
             richTextBox1.Text = strClient;
             Directory.CreateDirectory(Application.StartupPath + "\\kcptube");
             string confServerPathName = Application.StartupPath + "\\kcptube\\server.conf";

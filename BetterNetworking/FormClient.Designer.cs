@@ -43,11 +43,11 @@
             this.labelBandwidth = new System.Windows.Forms.Label();
             this.labelInfo = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.buttonTest = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.buttonClose = new System.Windows.Forms.Button();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panelTop = new System.Windows.Forms.Panel();
-            this.buttonTest = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudBandwidthIn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudBandwidthOut)).BeginInit();
             this.tableLayoutPanel3.SuspendLayout();
@@ -61,9 +61,9 @@
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(217, 29);
+            this.label3.Location = new System.Drawing.Point(214, 29);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(47, 30);
+            this.label3.Size = new System.Drawing.Size(49, 30);
             this.label3.TabIndex = 1;
             this.label3.Text = "bps";
             // 
@@ -75,15 +75,15 @@
             "K",
             "M",
             "G"});
-            this.comboBandwidthInUnit.Location = new System.Drawing.Point(174, 3);
+            this.comboBandwidthInUnit.Location = new System.Drawing.Point(172, 3);
             this.comboBandwidthInUnit.Name = "comboBandwidthInUnit";
-            this.comboBandwidthInUnit.Size = new System.Drawing.Size(37, 29);
+            this.comboBandwidthInUnit.Size = new System.Drawing.Size(36, 29);
             this.comboBandwidthInUnit.TabIndex = 2;
             this.comboBandwidthInUnit.SelectedIndexChanged += new System.EventHandler(this.comboBandwidthInUnit_SelectedIndexChanged);
             // 
             // nudBandwidthIn
             // 
-            this.nudBandwidthIn.Location = new System.Drawing.Point(110, 3);
+            this.nudBandwidthIn.Location = new System.Drawing.Point(109, 3);
             this.nudBandwidthIn.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -95,7 +95,7 @@
             0,
             0});
             this.nudBandwidthIn.Name = "nudBandwidthIn";
-            this.nudBandwidthIn.Size = new System.Drawing.Size(58, 29);
+            this.nudBandwidthIn.Size = new System.Drawing.Size(57, 29);
             this.nudBandwidthIn.TabIndex = 4;
             this.nudBandwidthIn.Value = new decimal(new int[] {
             1,
@@ -106,7 +106,7 @@
             // 
             // nudBandwidthOut
             // 
-            this.nudBandwidthOut.Location = new System.Drawing.Point(110, 32);
+            this.nudBandwidthOut.Location = new System.Drawing.Point(109, 32);
             this.nudBandwidthOut.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -118,7 +118,7 @@
             0,
             0});
             this.nudBandwidthOut.Name = "nudBandwidthOut";
-            this.nudBandwidthOut.Size = new System.Drawing.Size(58, 29);
+            this.nudBandwidthOut.Size = new System.Drawing.Size(57, 29);
             this.nudBandwidthOut.TabIndex = 5;
             this.nudBandwidthOut.Value = new decimal(new int[] {
             1,
@@ -134,7 +134,7 @@
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 52F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 53F));
             this.tableLayoutPanel3.Controls.Add(this.label2, 3, 0);
             this.tableLayoutPanel3.Controls.Add(this.label3, 3, 1);
             this.tableLayoutPanel3.Controls.Add(this.comboBandwidthInUnit, 2, 0);
@@ -150,7 +150,7 @@
             this.tableLayoutPanel1.SetRowSpan(this.tableLayoutPanel3, 3);
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(267, 59);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(266, 59);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
             // label2
@@ -158,9 +158,9 @@
             this.label2.AutoSize = true;
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label2.Location = new System.Drawing.Point(217, 0);
+            this.label2.Location = new System.Drawing.Point(214, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 29);
+            this.label2.Size = new System.Drawing.Size(49, 29);
             this.label2.TabIndex = 0;
             this.label2.Text = "bps";
             // 
@@ -172,9 +172,9 @@
             "K",
             "M",
             "G"});
-            this.comboBandwidthOutUnit.Location = new System.Drawing.Point(174, 32);
+            this.comboBandwidthOutUnit.Location = new System.Drawing.Point(172, 32);
             this.comboBandwidthOutUnit.Name = "comboBandwidthOutUnit";
-            this.comboBandwidthOutUnit.Size = new System.Drawing.Size(37, 29);
+            this.comboBandwidthOutUnit.Size = new System.Drawing.Size(36, 29);
             this.comboBandwidthOutUnit.TabIndex = 3;
             this.comboBandwidthOutUnit.SelectedIndexChanged += new System.EventHandler(this.comboBandwidthOutUnit_SelectedIndexChanged);
             // 
@@ -206,7 +206,7 @@
             this.buttonGenerate.Location = new System.Drawing.Point(471, 483);
             this.buttonGenerate.Margin = new System.Windows.Forms.Padding(150, 3, 150, 3);
             this.buttonGenerate.Name = "buttonGenerate";
-            this.buttonGenerate.Size = new System.Drawing.Size(165, 44);
+            this.buttonGenerate.Size = new System.Drawing.Size(163, 44);
             this.buttonGenerate.TabIndex = 10;
             this.buttonGenerate.Text = "button2";
             this.buttonGenerate.UseVisualStyleBackColor = true;
@@ -220,7 +220,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(3, 73);
             this.richTextBox1.Name = "richTextBox1";
             this.tableLayoutPanel1.SetRowSpan(this.richTextBox1, 8);
-            this.richTextBox1.Size = new System.Drawing.Size(430, 384);
+            this.richTextBox1.Size = new System.Drawing.Size(429, 384);
             this.richTextBox1.TabIndex = 11;
             this.richTextBox1.Text = "";
             // 
@@ -242,10 +242,10 @@
             this.labelInfo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.labelInfo.Font = new System.Drawing.Font("微软雅黑", 10F);
             this.labelInfo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.labelInfo.Location = new System.Drawing.Point(444, 5);
+            this.labelInfo.Location = new System.Drawing.Point(443, 5);
             this.labelInfo.Name = "labelInfo";
             this.tableLayoutPanel1.SetRowSpan(this.labelInfo, 11);
-            this.labelInfo.Size = new System.Drawing.Size(339, 455);
+            this.labelInfo.Size = new System.Drawing.Size(338, 455);
             this.labelInfo.TabIndex = 9;
             this.labelInfo.Text = "label1";
             // 
@@ -260,7 +260,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 15F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 5F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 13F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 14F));
             this.tableLayoutPanel1.Controls.Add(this.labelInfo, 7, 1);
             this.tableLayoutPanel1.Controls.Add(this.buttonGenerate, 5, 13);
             this.tableLayoutPanel1.Controls.Add(this.richTextBox1, 1, 3);
@@ -288,6 +288,17 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 550);
             this.tableLayoutPanel1.TabIndex = 4;
+            // 
+            // buttonTest
+            // 
+            this.buttonTest.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonTest.Location = new System.Drawing.Point(166, 483);
+            this.buttonTest.Name = "buttonTest";
+            this.buttonTest.Size = new System.Drawing.Size(147, 44);
+            this.buttonTest.TabIndex = 15;
+            this.buttonTest.Text = "button2";
+            this.buttonTest.UseVisualStyleBackColor = true;
+            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
             // 
             // button1
             // 
@@ -355,17 +366,6 @@
             this.panelTop.Name = "panelTop";
             this.panelTop.Size = new System.Drawing.Size(800, 50);
             this.panelTop.TabIndex = 3;
-            // 
-            // buttonTest
-            // 
-            this.buttonTest.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonTest.Location = new System.Drawing.Point(166, 483);
-            this.buttonTest.Name = "buttonTest";
-            this.buttonTest.Size = new System.Drawing.Size(147, 44);
-            this.buttonTest.TabIndex = 15;
-            this.buttonTest.Text = "button2";
-            this.buttonTest.UseVisualStyleBackColor = true;
-            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
             // 
             // FormClient
             // 

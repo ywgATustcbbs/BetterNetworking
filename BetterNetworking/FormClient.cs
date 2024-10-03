@@ -63,6 +63,7 @@ namespace BetterNetworking
             nudBandwidthOut.Value = Settings.Default.intClientBandWidthOut;
             comboBandwidthInUnit.SelectedIndex = Settings.Default.intClientBandWidthInUnit;
             comboBandwidthOutUnit.SelectedIndex = Settings.Default.intClientBandWidthOutUnit;
+            richTextBox1.Text = Settings.Default.strConfClient;
 
         }
 
@@ -169,6 +170,10 @@ namespace BetterNetworking
             Directory.CreateDirectory(Application.StartupPath + "\\kcptube");
             string confClientPathName = Application.StartupPath + "\\kcptube\\client.conf";
             File.WriteAllText(confClientPathName, strClient);
+
+            Settings.Default.strConfClient = richTextBox1.Text;
+            Settings.Default.Save();
+
             string exePathName = Application.StartupPath + "\\kcptube\\kcptube.exe";
             string testPathName = Application.StartupPath + "\\kcptube\\test.bat";
             string strTestContent = "\"" + exePathName + "\" \"" +  confClientPathName + "\" --try\r\npause";
